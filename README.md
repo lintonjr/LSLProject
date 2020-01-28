@@ -24,7 +24,7 @@ O Projeto vem pre-configurado com as seguintes dependências.
 1. Clone do projeto
     + `$ npm install`
 2. Configuração do banco de dados e do arquivo .ENV
-![.ENV](https://raw.githubusercontent.com/lintonjr/LSLProject/master/820.png)
+![.ENV](https://raw.githubusercontent.com/lintonjr/LSLProject/master/img/env.png)
     + `$ adonis migration:run`
 
 **Criação de novos Módulos**
@@ -38,4 +38,4 @@ Este comando é responsável pela criação da model, migration e controller.
 No formato atual de API precisamos retirar do controller o create e edit.
 
 As models com seus relacionamentos normalmente se parecem como a model de Item, localizada em App/Models/Item.js
-![Model](https://raw.githubusercontent.com/lintonjr/LSLProject/master/820.png)
+![Model](https://raw.githubusercontent.com/lintonjr/LSLProject/master/img/item.png)
